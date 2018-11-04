@@ -24,10 +24,10 @@ public class MusicService {
 	    artists.put(artist2.getId(), artist2);
 	    
 
-	    Album album1 = new Album("1", "Deewana", artist1, 2);
-	    Album album2 = new Album("2", "Jaan", artist1, 3);
-	    Album album3 = new Album("3", "Armaan", artist2, 4);
-	    Album album4 = new Album("4", "Sanam Re", artist2, 2);
+	    Album album1 = new Album("1", "Deewana", artist2, 2);
+	    Album album2 = new Album("2", "Jaan", artist2, 3);
+	    Album album3 = new Album("3", "Armaan", artist1, 4);
+	    Album album4 = new Album("4", "Sanam Re", artist1, 2);
 	    albums.put(album1.getId(), album1);
 	    albums.put(album2.getId(), album2);
 	    albums.put(album3.getId(), album3);
